@@ -1,0 +1,71 @@
+@charset "UFT-8";
+
+body{
+    margin: 0 auto;
+    max-width: 810px;
+    min-width: 300px;
+}
+
+header {
+    background-color: orange;
+    border: solid 1px;
+    margin: 0px;
+    
+}
+header p{
+    padding: 10px;
+    text-align: center;
+}
+
+#cuerpo{
+    margin: 0px;
+    
+}
+
+#menu p{
+    position: relative;
+    top:50%;
+}
+#menu{
+    width: 305px;
+    float: left;
+    background-color: LightCyan;
+    border: solid 1px;
+    height: 400px;   
+    margin: 0px;
+    
+}
+
+
+#content{  
+    max-width: 500px;
+    width:100%;
+    min-width: 300px;
+    border: solid 1px;
+    height: 600px;
+    float:left;
+}
+#content p{
+    position: relative;
+    top:50%;
+}
+
+.clear{
+    clear: both;
+}
+footer{
+    max-width: 810px;
+    min-width: 300px;
+    margin: 0px;
+    background-color: grey;
+    border: solid 1px;
+    
+}
+
+footer p {
+    padding: 15px;
+    
+}
+p{
+    text-align: center;
+}
